@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1705829257519
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1705835284849
+  login: 1705832012451
+money: '0'
+last-account-name: Jammerenka
+lastlocation:
+  world: a90a8fe8-ec30-402d-87d8-ba48ba92e2de
+  world-name: world
+  x: -1.300000011920929
+  y: 112.0
+  z: 1.9991549159380835
+  yaw: -105.83758544921875
+  pitch: 30.993330001831055
+logoutlocation:
+  world: a90a8fe8-ec30-402d-87d8-ba48ba92e2de
+  world-name: world
+  x: 11.60913916544463
+  y: 113.0
+  z: 2.165708039767455
+  yaw: -175.1729736328125
+  pitch: 58.04984664916992

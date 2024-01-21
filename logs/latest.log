@@ -1,0 +1,423 @@
+[17:07:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:07:49] [ServerMain/INFO]: Loaded 7 recipes
+[17:07:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[17:07:51] [Server thread/WARN]: ****************************
+[17:07:51] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[17:07:51] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[17:07:51] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[17:07:51] [Server thread/WARN]: ****************************
+[17:07:51] [Server thread/INFO]: Loading properties
+[17:07:51] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[17:07:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:07:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:07:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[17:07:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 6 worker threads, and gen parallelism of 6 threads
+[17:07:52] [Server thread/INFO]: Default game type: SURVIVAL
+[17:07:52] [Server thread/INFO]: Generating keypair
+[17:07:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:07:52] [Server thread/INFO]: Using default channel type
+[17:07:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[17:07:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[17:07:52] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[17:07:55] [Server thread/WARN]: Legacy plugin NoCheatPlus v3.16.0-RC-sMD5NET-b1134 does not specify an api-version.
+[17:07:55] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.102
+[17:07:56] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.0.4
+[17:07:56] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[17:07:56] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[17:07:57] [Server thread/INFO]: [pv-addon-lavaplayer-lib] Loading server plugin pv-addon-lavaplayer-lib v1.0.6
+[17:07:57] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.0-dev+25-fbfd7e9
+[17:07:57] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[17:07:57] [Server thread/INFO]: [pv-addon-discs] Loading server plugin pv-addon-discs v1.0.5
+[17:07:57] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.4.3
+[17:07:57] [Server thread/INFO]: [NoCheatPlus] Loading server plugin NoCheatPlus v3.16.0-RC-sMD5NET-b1134
+[17:07:57] [Server thread/INFO]: [NoCheatPlus] onLoad: Early set up of static API, configuration, logging.
+[17:07:57] [Server thread/INFO]: [NoCheatPlus] Logging system initialized.
+[17:07:57] [Server thread/INFO]: [NoCheatPlus] Detected Minecraft version: 1.20.1
+[17:07:57] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[17:07:57] [Server thread/INFO]: [SuperVanish] Loading server plugin SuperVanish v6.2.18
+[17:07:57] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.21.0-dev+25-fbfd7e9
+[17:07:57] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v22.2
+[17:07:57] [Server thread/INFO]: [ChatEx] Loading server plugin ChatEx v3.2.2
+[17:07:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:07:57] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[17:07:58] [Server thread/INFO]:         __    
+[17:07:58] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.102
+[17:07:58] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[17:07:58] [Server thread/INFO]: 
+[17:07:58] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:07:58] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:07:59] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:07:59] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:07:59] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1805ms)
+[17:07:59] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.0.4
+[17:07:59] [Server thread/INFO]: [PlasmoVoice] LuckPerms permissions listener attached
+[17:07:59] [Server thread/INFO]: [PlasmoVoice] pv-addon-lavaplayer-lib v1.0.6 by Apehum loaded
+[17:07:59] [Server thread/INFO]: [PlasmoVoice] pv-addon-discs v1.0.5 by KPidS loaded
+[17:07:59] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:25565
+[17:07:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[17:07:59] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[17:08:00] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[17:08:00] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[17:08:00] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[17:08:00] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[17:08:00] [Server thread/INFO]: [pv-addon-lavaplayer-lib] Enabling pv-addon-lavaplayer-lib v1.0.6
+[17:08:00] [Server thread/INFO]: [pv-addon-discs] Enabling pv-addon-discs v1.0.5
+[17:08:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:08:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:08:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:08:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:08:00] [Server thread/INFO]: Preparing level "world"
+[17:08:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:08:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:00] [Server thread/INFO]: View Distance: 10
+[17:08:00] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:00] [Server thread/INFO]: Simulation Distance: 10
+[17:08:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[17:08:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:08:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:08:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:08:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:00] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:08:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:01] [Server thread/INFO]: View Distance: 10
+[17:08:01] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:01] [Server thread/INFO]: Simulation Distance: 10
+[17:08:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:08:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:08:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:08:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:01] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:08:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:08:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:08:01] [Server thread/INFO]: View Distance: 10
+[17:08:01] [Server thread/INFO]: Mob Spawn Range: 6
+[17:08:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:08:01] [Server thread/INFO]: Simulation Distance: 10
+[17:08:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:08:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:08:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:08:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:08:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[17:08:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:08:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:08:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:08:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:08:01] [Server thread/INFO]: Max TNT Explosions: 100
+[17:08:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:08:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:08:01] [Server thread/INFO]: Time elapsed: 212 ms
+[17:08:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:08:01] [Server thread/INFO]: Time elapsed: 31 ms
+[17:08:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:08:01] [Server thread/INFO]: Time elapsed: 31 ms
+[17:08:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0-dev+25-fbfd7e9
+[17:08:01] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[17:08:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[17:08:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[17:08:02] [Server thread/INFO]: [Essentials] Loaded 39095 items from items.json.
+[17:08:02] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[17:08:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[17:08:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[17:08:02] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[17:08:02] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[17:08:02] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[17:08:03] [Server thread/INFO]: [TAB] [WARN] Animation "time" has refresh interval of 0 milliseconds! Did you forget to configure it? Using 1000.
+[17:08:03] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[17:08:03] [Server thread/INFO]: [TAB] Enabled in 324ms
+[17:08:03] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.4.3
+[17:08:03] [Server thread/INFO]: [NoCheatPlus] Enabling NoCheatPlus v3.16.0-RC-sMD5NET-b1134*
+[17:08:04] [Server thread/WARN]: [NoCheatPlus] Running in Bukkit-API-only mode (git-Paper-196 (MC: 1.20.1)). If this is not intended, please check for updates and consider to request support.
+[17:08:04] [Server thread/WARN]: [NoCheatPlus]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+[17:08:04] [Server thread/WARN]: [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+[17:08:04] [Server thread/WARN]: [NoCheatPlus] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[17:08:04] [Server thread/WARN]: [NoCheatPlus] Packet level access via ProtocolLib not available, supported configurations:  | ProtocolLib 4.3.0 or later for Minecraft 1.12.x | ProtocolLib 4.2.0 or later for Minecraft 1.11.x | ProtocolLib 4.1 or later for Minecraft 1.8.x to 1.10.x | ProtocolLib 3.7.0 for Minecraft 1.7.x and earlier | ProtocolLib 3.6.6 for PaperSpigot 1.8.x
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Force disable FastHeal on Minecraft 1.9 and later.
+[17:08:04] [Server thread/INFO]: [NoCheatPlus] Version 3.16.0-RC-sMD5NET-b1134 is enabled.
+[17:08:04] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[17:08:05] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 54 ms to scan 1 urls, producing 2 keys and 34 values
+[17:08:06] [Server thread/INFO]: [SuperVanish] Enabling SuperVanish v6.2.18
+[17:08:06] [Server thread/INFO]: [SuperVanish] Hooked into PaperSpigot for server list ping support
+[17:08:06] [Server thread/INFO]: [SuperVanish] Hooked into Essentials
+[17:08:06] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.21.0-dev+25-fbfd7e9
+[17:08:06] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[17:08:06] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v22.2
+[17:08:06] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[17:08:06] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[17:08:06] [Server thread/INFO]: --------------------
+[17:08:06] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[17:08:06] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[17:08:06] [Server thread/INFO]: --------------------
+[17:08:06] [Server thread/INFO]: [ChatEx] Enabling ChatEx v3.2.2
+[17:08:06] [Server thread/INFO]: [ChatEx] Successfully hooked into: LuckPerms
+[17:08:06] [Server thread/INFO]: [ChatEx] Server version:git-Paper-196 (MC: 1.20.1)
+[17:08:06] [Server thread/INFO]: [ChatEx] Version is later than 1.16. Loading RGB ColorCodes!
+[17:08:06] [Server thread/INFO]: [ChatEx] Thanks for using bstats, it was enabled!
+[17:08:06] [Server thread/INFO]: [ChatEx] Is now enabled!
+[17:08:06] [Server thread/INFO]: Running delayed init tasks
+[17:08:06] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Ïîëó÷åíèå èíôîðìàöèè î âåðñèè...
+[17:08:06] [Craft Scheduler Thread - 6 - ChatEx/INFO]: [ChatEx] Checking for update...
+[17:08:06] [Craft Scheduler Thread - 4 - NoCheatPlus/INFO]: [NoCheatPlus] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+[17:08:06] [Craft Scheduler Thread - 4 - NoCheatPlus/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[17:08:06] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[17:08:06] [Server thread/INFO]: [NoCheatPlus] Post-enable running...
+[17:08:07] [Craft Scheduler Thread - 6 - ChatEx/INFO]: [ChatEx] Version installed is 3.2.2
+[17:08:07] [Craft Scheduler Thread - 6 - ChatEx/INFO]: [ChatEx] Latest version found online is 3.2.2
+[17:08:07] [Craft Scheduler Thread - 6 - ChatEx/INFO]: [ChatEx] No update found.
+[17:08:07] [Server thread/INFO]: [NoCheatPlus] Post-enable finished.
+[17:08:07] [Server thread/INFO]: Done (16.102s)! For help, type "help"
+[17:08:07] [Server thread/INFO]: Timings Reset
+[17:08:07] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[17:08:07] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[17:08:16] [User Authenticator #0/INFO]: UUID of player Jammerenka is 1ee0d2dc-21e2-3444-b0ab-645dbeb30754
+[17:08:16] [Server thread/INFO]: Jammerenka joined the game
+[17:08:16] [Server thread/INFO]: Jammerenka[/127.0.0.1:54939] logged in with entity id 268 at ([world]8.1388514165216, 112.0, 0.005298604143044632)
+[17:08:22] [Server thread/INFO]: Jammerenka issued server command: /weather sun
+[17:08:39] [Async Chat Thread - #1/INFO]: [Not Secure] Jammerenka: 123
+[17:08:48] [Async Chat Thread - #1/INFO]: [Not Secure] Jammerenka: !1231112121212
+[17:11:11] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:11:29] [Server thread/INFO]: Jammerenka issued server command: /op
+[17:11:51] [Server thread/INFO]: Jammerenka issued server command: /lp editor
+[17:12:09] [Server thread/INFO]: Jammerenka issued server command: /lp trusteditor dceb-047d
+[17:12:58] [luckperms-worker-7/INFO]: [LP] LOG > (Jammerenka) [G] (default)
+[17:12:58] [luckperms-worker-7/INFO]: [LP] LOG > webeditor add chatex.chat.global true
+[17:13:02] [Async Chat Thread - #4/INFO]: [Not Secure] [G] Jammerenka: 1
+[17:13:12] [User Authenticator #1/INFO]: UUID of player Jammerenka is 1ee0d2dc-21e2-3444-b0ab-645dbeb30754
+[17:13:12] [Server thread/INFO]: Jammerenka lost connection: You logged in from another location
+[17:13:12] [Server thread/INFO]: Jammerenka left the game
+[17:13:12] [Server thread/INFO]: Jammerenka joined the game
+[17:13:12] [Server thread/INFO]: Jammerenka[/127.0.0.1:55024] logged in with entity id 700 at ([world]8.379464030383735, 112.0, 1.3693020741003683)
+[17:13:16] [Server thread/INFO]: Jammerenka lost connection: Disconnected
+[17:13:16] [Server thread/INFO]: Jammerenka left the game
+[17:13:24] [User Authenticator #1/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:13:24] [Server thread/INFO]: Jammekaa joined the game
+[17:13:24] [Server thread/INFO]: Jammekaa[/127.0.0.1:55040] logged in with entity id 710 at ([world]-7.5, 103.0, -1.5)
+[17:13:32] [User Authenticator #1/INFO]: UUID of player Jammerenka is 1ee0d2dc-21e2-3444-b0ab-645dbeb30754
+[17:13:32] [Server thread/INFO]: Jammerenka joined the game
+[17:13:32] [Server thread/INFO]: Jammerenka[/127.0.0.1:55046] logged in with entity id 728 at ([world]8.379464030383735, 112.0, 1.3693020741003683)
+[17:13:44] [Server thread/INFO]: Jammerenka issued server command: /gm 1 Jammekaa
+[17:13:47] [Async Chat Thread - #4/INFO]: [Not Secure] Jammekaa: 123
+[17:13:51] [Async Chat Thread - #5/INFO]: [Not Secure] Jammekaa: 11111111
+[17:14:02] [Async Chat Thread - #4/INFO]: [Not Secure] [G] Jammekaa: 1
+[17:14:48] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:14:52] [Async Chat Thread - #5/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:14:57] [Async Chat Thread - #4/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:14:58] [Async Chat Thread - #5/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:15:45] [Async Chat Thread - #4/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:15:49] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:15:51] [Async Chat Thread - #5/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:15:53] [Async Chat Thread - #4/INFO]: [Not Secure] [L] Jammekaa: 11111111
+[17:15:54] [Server thread/INFO]: Jammekaa lost connection: You're not allowed to spam in chat!
+[17:15:54] [Server thread/INFO]: Jammekaa left the game
+[17:15:54] [Craft Scheduler Thread - 13 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Text: acted like spamming (IP: ctivate.adobe.com/127.0.0.1). VL 1.
+[17:15:54] [Craft Scheduler Thread - 13 - NoCheatPlus/INFO]: [NoCheatPlus] (CONSOLE) Kicked Jammekaa : You're not allowed to spam in chat!
+[17:15:56] [User Authenticator #2/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:15:56] [Server thread/INFO]: Jammekaa joined the game
+[17:15:56] [Server thread/INFO]: Jammekaa[/127.0.0.1:55087] logged in with entity id 941 at ([world]4.996095246090037, 112.0, 0.020943377761476555)
+[17:16:08] [Server thread/INFO]: Jammerenka issued server command: /changems
+[17:16:22] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:16:50] [Async Chat Thread - #4/INFO]: [Not Secure] [G] Jammekaa: 1123
+[17:16:51] [Async Chat Thread - #5/INFO]: [Not Secure] [G] Jammekaa: 1123
+[17:17:51] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:17:57] [Async Chat Thread - #6/INFO]: [Not Secure] [G] Jammekaa: 1123
+[17:17:57] [Server thread/INFO]: Jammekaa lost connection: You're not allowed to spam in chat!
+[17:17:57] [Server thread/INFO]: Jammekaa left the game
+[17:17:57] [Craft Scheduler Thread - 16 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Text: acted like spamming (IP: ctivate.adobe.com/127.0.0.1). VL 0.
+[17:17:57] [Craft Scheduler Thread - 16 - NoCheatPlus/INFO]: [NoCheatPlus] (CONSOLE) Kicked Jammekaa : You're not allowed to spam in chat!
+[17:18:01] [User Authenticator #3/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:18:01] [Server thread/INFO]: Jammekaa joined the game
+[17:18:01] [Server thread/INFO]: Jammekaa[/127.0.0.1:55127] logged in with entity id 1146 at ([world]4.996095246090037, 112.0, 0.020943377761476555)
+[17:18:06] [Async Chat Thread - #6/INFO]: [Not Secure] [G] Jammekaa: !!!!!!!!!!!!
+[17:18:07] [Server thread/INFO]: Jammekaa lost connection: You're not allowed to spam in chat!
+[17:18:07] [Server thread/INFO]: Jammekaa left the game
+[17:18:07] [Craft Scheduler Thread - 16 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Text: acted like spamming (IP: 127.0.0.1). VL 1.
+[17:18:07] [Craft Scheduler Thread - 16 - NoCheatPlus/INFO]: [NoCheatPlus] (CONSOLE) Kicked Jammekaa : You're not allowed to spam in chat!
+[17:18:09] [User Authenticator #3/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:18:09] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@6cc0a77b[id=1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57,name=Jammekaa,properties={},legacy=false] (/127.0.0.1:55130): Too fast re-login, try with a little delay.
+[17:18:09] [Craft Scheduler Thread - 16 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Relog: relogs too fast. VL 1.
+[17:18:09] [Server thread/INFO]: com.mojang.authlib.GameProfile@6cc0a77b[id=1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57,name=Jammekaa,properties={},legacy=false] (/127.0.0.1:55130) lost connection: Too fast re-login, try with a little delay.
+[17:18:11] [User Authenticator #3/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:18:11] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3c1dbce[id=1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57,name=Jammekaa,properties={},legacy=false] (/127.0.0.1:55131): Too fast re-login, try with a little delay.
+[17:18:11] [Server thread/INFO]: com.mojang.authlib.GameProfile@3c1dbce[id=1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57,name=Jammekaa,properties={},legacy=false] (/127.0.0.1:55131) lost connection: Too fast re-login, try with a little delay.
+[17:18:12] [User Authenticator #3/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:18:12] [Server thread/INFO]: Jammekaa joined the game
+[17:18:12] [Server thread/INFO]: Jammekaa[/127.0.0.1:55132] logged in with entity id 1169 at ([world]4.996095246090037, 112.0, 0.020943377761476555)
+[17:19:37] [Server thread/INFO]: Jammerenka issued server command: /nocheatplus reload
+[17:19:37] [Server thread/INFO]: [NoCheatPlus] §cNCP: §fReloading configuration...
+[17:19:37] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+[17:19:37] [Server thread/INFO]: [NoCheatPlus] §cNCP: §fConfiguration reloaded.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/WARN]: [NoCheatPlus] Running in Bukkit-API-only mode (git-Paper-196 (MC: 1.20.1)). If this is not intended, please check for updates and consider to request support.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/WARN]: [NoCheatPlus]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/WARN]: [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/WARN]: [NoCheatPlus] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Removed hook: AllViolations(NCP) [1.0].
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[17:19:37] [Craft Scheduler Thread - 19 - NoCheatPlus/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[17:19:43] [Async Chat Thread - #8/INFO]: [Not Secure] [L] Jammekaa: 123123
+[17:19:44] [Async Chat Thread - #9/INFO]: [Not Secure] [L] Jammekaa: 123123
+[17:19:45] [Server thread/INFO]: Jammekaa lost connection: You're not allowed to spam in chat!
+[17:19:45] [Server thread/INFO]: Jammekaa left the game
+[17:19:45] [Craft Scheduler Thread - 20 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Text: acted like spamming (IP: ctivate.adobe.com/127.0.0.1). VL 1.
+[17:19:45] [Craft Scheduler Thread - 20 - NoCheatPlus/INFO]: [NoCheatPlus] (CONSOLE) Kicked Jammekaa : You're not allowed to spam in chat!
+[17:20:19] [User Authenticator #4/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:20:19] [Server thread/INFO]: Jammekaa joined the game
+[17:20:19] [Server thread/INFO]: Jammekaa[/127.0.0.1:55171] logged in with entity id 1350 at ([world]4.996095246090037, 112.0, 0.020943377761476555)
+[17:20:22] [Async Chat Thread - #9/INFO]: [Not Secure] [G] Jammekaa: 123
+[17:20:23] [Server thread/INFO]: Jammekaa lost connection: You're not allowed to spam in chat!
+[17:20:23] [Server thread/INFO]: Jammekaa left the game
+[17:20:23] [Craft Scheduler Thread - 24 - NoCheatPlus/INFO]: [NoCheatPlus] Jammekaa failed Text: acted like spamming (IP: 127.0.0.1). VL 1.
+[17:20:23] [Craft Scheduler Thread - 24 - NoCheatPlus/INFO]: [NoCheatPlus] (CONSOLE) Kicked Jammekaa : You're not allowed to spam in chat!
+[17:22:07] [Server thread/INFO]: Jammerenka issued server command: /nocheatplus reload
+[17:22:07] [Server thread/INFO]: [NoCheatPlus] §cNCP: §fReloading configuration...
+[17:22:07] [Server thread/INFO]: [NoCheatPlus] McAccess set to: 1.4.6-1.11.2|? / Bukkit-API
+[17:22:07] [Server thread/INFO]: [NoCheatPlus] §cNCP: §fConfiguration reloaded.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/WARN]: [NoCheatPlus] Running in Bukkit-API-only mode (git-Paper-196 (MC: 1.20.1)). If this is not intended, please check for updates and consider to request support.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/WARN]: [NoCheatPlus]  Check for updates and support at BukkitDev: https://dev.bukkit.org/server-mods/nocheatplus/
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/WARN]: [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, use at your own risk): https://ci.md-5.net/job/NoCheatPlus/changes
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/WARN]: [NoCheatPlus] Bukkit-API-only mode: Some features will likely not function properly, performance might suffer.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Could not register an instance for: fr.neatmonster.nocheatplus.components.entity.IEntityAccessLastPositionAndLook
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.9 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.10 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.11 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added block-info for Minecraft 1.12 blocks.
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Removed hook: AllViolations(NCP) [1.0].
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Added hook: AllViolations(NCP) [1.0].
+[17:22:07] [Craft Scheduler Thread - 25 - NoCheatPlus/INFO]: [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+[17:22:09] [User Authenticator #5/INFO]: UUID of player Jammekaa is 1c71450e-5cdc-3e1a-bf73-2bd99d6d0a57
+[17:22:09] [Server thread/INFO]: Jammekaa joined the game
+[17:22:09] [Server thread/INFO]: Jammekaa[/127.0.0.1:55209] logged in with entity id 1494 at ([world]4.996095246090037, 112.0, 0.020943377761476555)
+[17:22:12] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:13] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:14] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:14] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:15] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:16] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:17] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:18] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:18] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:19] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:20] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:20] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:21] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:22] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:23] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:23] [Async Chat Thread - #11/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:24] [Async Chat Thread - #10/INFO]: [Not Secure] [G] Jammekaa: 23212
+[17:22:27] [Async Chat Thread - #11/INFO]: [Not Secure] [L] Jammekaa: 123
+[17:23:22] [Async Chat Thread - #10/INFO]: [Not Secure] [L] Jammekaa: &d&n&l 123
+[17:23:29] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:23:31] [Async Chat Thread - #11/INFO]: [Not Secure] [L] Jammekaa: &d&n&l 123
+[17:23:49] [Server thread/INFO]: Jammerenka issued server command: /chatex reload
+[17:23:51] [Async Chat Thread - #10/INFO]: [Not Secure] [L] Jammekaa: &d&n&l 123
+[17:24:02] [Async Chat Thread - #11/INFO]: [Not Secure] [L] Jammekaa: &d&n&l 123
+[18:07:42] [Server thread/INFO]: Jammerenka issued server command: /tab reload
+[18:07:42] [Server thread/INFO]: [TAB] Disabled in 2ms
+[18:07:42] [Server thread/INFO]: [TAB] [WARN] Animation "time" has refresh interval of 0 milliseconds! Did you forget to configure it? Using 1000.
+[18:07:42] [Server thread/INFO]: [TAB] [WARN] Found a total of 1 issues.
+[18:07:42] [Server thread/INFO]: [TAB] Enabled in 23ms
+[18:08:04] [Server thread/INFO]: Jammerenka lost connection: Disconnected
+[18:08:04] [Server thread/INFO]: Jammerenka left the game
